@@ -60,7 +60,7 @@ const Header = () => {
           ) : (
             <tr>
               <td colSpan="4" style={{ textAlign: "center" }}>
-                No data found to display
+              No data found to display.
               </td>
             </tr>
           )}
