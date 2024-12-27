@@ -31,7 +31,7 @@ return(
             <span>Avatar</span>
         </div>
         <div>
-
+            <table>
          {loading?<p>Loading...</p>:Data.length>0?Data.map((item) => (
                 <ul key={item.id} className="ul-item"> 
                   <li>{item.first_name}</li> 
@@ -39,8 +39,8 @@ return(
                   <li>{item.email}</li>
                   <li><img src={item.avatar} alt={`${item.first_name} avatar`} /></li>
                 </ul>
-              )):<p>No Data</p>} 
-              
+              )):<p>No data found'</p>} 
+              </table>
         </div>
     </div>
 )
